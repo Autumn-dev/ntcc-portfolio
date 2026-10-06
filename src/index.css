@@ -1,5 +1,6 @@
-@import "tailwindcss";
 @import "https://iosevka-webfonts.github.io/iosevka/Iosevka.css";
+@import "tailwindcss";
+
 :root {
   --text: #a1a8b7;
   --text-h: #e8eaf0;
@@ -16,8 +17,8 @@
 
 
 
-  --sans: 'Iosevka',system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Iosevka Web', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Iosevka Web', system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
