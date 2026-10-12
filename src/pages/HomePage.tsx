@@ -1,7 +1,13 @@
+import Nav from "../components/Nav";
+
 function HomePage() {
 
   return (
     <main>
+      <div className="relative font-semibold font-stretch-expanded text-white py-10 mt-3 bg-black text-6xl">
+        Nathan Cheung
+      </div>
+      <Nav /> 
     </main>
   );
 };
