@@ -13,7 +13,7 @@ function ProjectsPage() {
           <div className="grid-flow-row-dense w-1/2 justify-center grid grid-cols-2 grid-rows-3">
             <div className="col-start-1 row-span-3 col-span-2">
               <img
-                src="src/assets/wam.png"
+                src="/wam.png"
                 alt="Placeholder"
                 className="w-400-px h-400-px object-cover"
               />
