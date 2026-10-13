@@ -2,6 +2,15 @@
 <html lang="en">
   <head>
     <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <script>
+      {
+        const saved = localStorage.getItem("theme");
+        const prefersDark = matchMedia("(prefers-color-scheme: dark)").matches;
+        if (saved === "blackspace" || (!saved && prefersDark)) {
+          document.documentElement.classList.add("blackspace");
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

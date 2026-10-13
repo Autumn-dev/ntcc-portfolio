@@ -8,7 +8,7 @@ type NavProps = {
 
 function Nav({
   onNavigate,
-  className = "flex flex-col text-white items-center text-lg w-fit mx-auto mt-10 font-bold border-double divide-solid divide-white divide-y-3 border-white border-4 bg-black",
+  className = "sketchy-border flex flex-col text-white items-center text-lg w-fit mx-auto mt-10 font-bold divide-dashed divide-white divide-y-3  bg-black",
   id,
 }: NavProps) {
   return (

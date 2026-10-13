@@ -5,10 +5,12 @@ import ContactPage from "./pages/ContactPage.tsx";
 import ProjectsPage from "./pages/ProjectsPage.tsx";
 import AppLayout from "./layouts/AppLayout.tsx";
 import "./App.css";
+import SketchFilters from "./components/SketchFilter.tsx";
 
 function App() {
   return (
     <>
+      <SketchFilters />
       <Routes>
         <Route index element={<HomePage />} />
         <Route element={<AppLayout />}>
