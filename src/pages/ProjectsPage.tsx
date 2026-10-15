@@ -8,21 +8,22 @@ function ProjectsPage() {
       {/* Main Content */}
       <div className="sketchy-border w-5/6 mx-auto mt-10 py-10 bg-black">
         <p className="text-white text-lg">Here are some of my projects!</p>
-        <div className="grid grid-cols-1 gap-4 mt-6">
+        {/* Start of project entries */}
+        <div className="grid grid-cols-1 gap-2 mt-6">
           {/* First entry */}
-          <div className="grid-flow-row-dense w-1/2 justify-center grid grid-cols-3 grid-rows-3">
-            <div className="col-start-1 col-span-1 col-end-2 row-end-2">
+          <div className="w-full grid grid-cols-[1fr,1fr] grid-rows-2">
+            <div className="col-start-1 row-span-2">
               <img
                 src="/wam.png"
                 alt="Placeholder"
-                className="w-full h-auto mx-5"
+                className="w-full h-auto aspect-3/2"
               />
             </div>
-            <div className="col-start-3 row-start-1">
-              Lorum ipsum dolor sit amet
+            <div className="col-start-2 row-start-1 h-fit">
+              Lorum ipsum dolor sit amet [TITLE]
             </div>
-            <div className="col-start-3 row-start-2 row-end-3">
-              Lorum ipsum dolor sit amet 2
+            <div className="col-start-2 row-start-2">
+              Lorum ipsum dolor sit amet 2 [DESC]
             </div>
           </div>
           {/* Second entry */}
